@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=
+ , initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="style.css">
+ <title>Document</title>
+</head>
+
+<body>
+
+
+ <div class="atm_frame">
+  <h3 class="error"></h3>
+  <h2 class="balance">SAR 100000</h2>
+
+  <div class="pin_screen">
+   <div>
+    <h3>GA Bank</h3>
+    <input id="pin" name="pin" placeholder="****" />
+   </div>
+   <button class="enter">Enter PIN</button>
+  </div>
+
+  <div class="select_screen">
+   <div style="display: flex; justify-content: space-between;">
+    <div class="withdraw">Withdraw Cash</div>
+    <div class="deposit">Deposit Cash</div>
+   </div>
+  </div>
+
+  <div class="withdraw_screen">
+   <div>
+    <h4>Withdrawal Screen</h4>
+    <div>
+     <input id="withdraw_amt" name="withdrawal" placeholder="100" value="" />
+    </div>
+    <button class="withdraw_btn">Withdraw</button>
+   </div>
+   <div class="back">Go Back</div>
+  </div>
+
+  <div class="deposit_screen">
+   <div>
+    <h4>Deposit Screen</h4>
+    <div>
+     <input id="deposit_amt" name="deposit" placeholder="100" />
+    </div>
+    <button class="deposit_btn">Deposit</button>
+   </div>
+   <div class="back">Go Back</div>
+  </div>
+
+
+ </div>
+
+
+ <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+ <script src="main.js"></script>
+</body>
+
+</html>

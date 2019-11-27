@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Bevan);
+
+body {
+  /* background: black; */
+}
+
+.atm_frame {
+  color: white;
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: darkblue;
+  padding: 50px 0;
+}
+.error {
+  text-align: center;
+  color: red;
+}
+.balance {
+  text-align: center;
+}
+
+.withdraw,
+.deposit {
+}
+
+input {
+  display: block;
+  width: 97%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: darkcyan;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.pin_screen {
+  width: 30%;
+  margin: 20% auto;
+  /* text-align: center; */
+}
+
+.select_screen {
+  width: 30%;
+  margin: 20% auto;
+}
